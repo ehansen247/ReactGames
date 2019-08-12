@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.68621d9f.chunk.css",
-    "main.js": "/static/js/main.1de3af03.chunk.js",
-    "main.js.map": "/static/js/main.1de3af03.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.5076a127.js",
-    "runtime~main.js.map": "/static/js/runtime~main.5076a127.js.map",
-    "static/js/2.1c57aca4.chunk.js": "/static/js/2.1c57aca4.chunk.js",
-    "static/js/2.1c57aca4.chunk.js.map": "/static/js/2.1c57aca4.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.dcb7f2ad61f7d26a8c91d7c33a02026f.js": "/precache-manifest.dcb7f2ad61f7d26a8c91d7c33a02026f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.68621d9f.chunk.css.map": "/static/css/main.68621d9f.chunk.css.map",
-    "static/media/connect4.png": "/static/media/connect4.f4cffc27.png",
-    "static/media/ticTacToe.png": "/static/media/ticTacToe.65f1551e.png"
+    "main.css": "/ReactGames/static/css/main.68621d9f.chunk.css",
+    "main.js": "/ReactGames/static/js/main.1de3af03.chunk.js",
+    "main.js.map": "/ReactGames/static/js/main.1de3af03.chunk.js.map",
+    "runtime~main.js": "/ReactGames/static/js/runtime~main.5296c498.js",
+    "runtime~main.js.map": "/ReactGames/static/js/runtime~main.5296c498.js.map",
+    "static/js/2.1c57aca4.chunk.js": "/ReactGames/static/js/2.1c57aca4.chunk.js",
+    "static/js/2.1c57aca4.chunk.js.map": "/ReactGames/static/js/2.1c57aca4.chunk.js.map",
+    "index.html": "/ReactGames/index.html",
+    "precache-manifest.806c177e3e69def5a091d3b58d637ee2.js": "/ReactGames/precache-manifest.806c177e3e69def5a091d3b58d637ee2.js",
+    "service-worker.js": "/ReactGames/service-worker.js",
+    "static/css/main.68621d9f.chunk.css.map": "/ReactGames/static/css/main.68621d9f.chunk.css.map",
+    "static/media/connect4.png": "/ReactGames/static/media/connect4.f4cffc27.png",
+    "static/media/ticTacToe.png": "/ReactGames/static/media/ticTacToe.65f1551e.png"
   }
 }
