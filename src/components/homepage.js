@@ -8,27 +8,23 @@ class Homepage extends Component {
   render() {
     return (
 
-      <div style= {{textAlign: "center"}} >
+      <div style= {{textAlign: "center", marginTop: "100px"}} >
 
         {/* TicTacToe Card */}
-        <div style= {{display: "inline-block", marginRight: "40px", marginTop: "100px"}}>
-          <Card style={{ width: '240px', height: '290px' }}>
-          <Card.Img variant="top" style={{ width: '240px', height: '250px' }} src={ticTacToeImg} />
-            <Card.Body>
-              <Button variant="primary" href="/ticTacToe">Go To TicTacToe</Button>
-            </Card.Body>
-          </Card>
-        </div>
+        <Card style={{ display: "inline-block", marginRight: "8em", width: '240px', height: '300px' }}>
+          <Card.Img variant="top" style={{ width: '240px', height: '220px' }} src={ticTacToeImg} />
+          <Card.Body>
+            <Button variant="primary" href="/ticTacToe">Go To TicTacToe</Button>
+          </Card.Body>
+        </Card>
 
         {/* Connect4 Card */}
-        <div style= {{display: "inline-block", marginLeft: "40px", marginTop: "100px"}}>
-          <Card style={{ width: '240px', height: '290px' }}>
-            <Card.Img variant="top" style={{ width: '240px', height: '250px' }} src={connect4Img} />
-            <Card.Body>
-              <Button variant="primary" href="/connect4">Go To Connect4</Button>
-            </Card.Body>
-          </Card>
-        </div>
+        <Card style={{ display: "inline-block", width: '240px', height: '300px' }}>
+          <Card.Img variant="top" style={{ width: '240px', height: '220px' }} src={connect4Img} />
+          <Card.Body>
+            <Button variant="primary" href="/connect4">Go To Connect4</Button>
+          </Card.Body>
+        </Card>
 
       </div>
 
