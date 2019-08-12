@@ -11,6 +11,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.0"
   },
+  "homepage": "https://ehansen247.github.io/ReactGames",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
