@@ -1,8 +1,8 @@
 # ReactGames
 Recreated games of Connect4 and TicTacToe. Includes two-player gameplay for both games. In TicTacToe, play against computer-generated moves. The computer plays according to a Depth First Search algorithm that searches through all possible future game states to determine the current best move.
 
-## GitHub Pages
-Access via link: https://ehansen247.github.io/ReactGames/
+## Heroku App
+Access via link: [https://react-games-edh.herokuapp.com/](https://react-games-edh.herokuapp.com/)
 
 
 ### `npm start`

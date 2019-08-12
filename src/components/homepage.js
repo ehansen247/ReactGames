@@ -11,9 +11,9 @@ class Homepage extends Component {
       <div style= {{textAlign: "center"}} >
 
         {/* TicTacToe Card */}
-        <div style= {{display: "inline-block", marginRight: "80px", marginTop: "100px"}}>
-          <Card hoverable="true" style={{ width: '240px', height: '290px' }}>
-            <Card.Img variant="top" style={{width: '240px', height: '250px' }} src={ticTacToeImg} />
+        <div style= {{display: "inline-block", marginRight: "40px", marginTop: "100px"}}>
+          <Card style={{ width: '240px', height: '290px' }}>
+          <Card.Img variant="top" style={{ width: '240px', height: '250px' }} src={ticTacToeImg} />
             <Card.Body>
               <Button variant="primary" href="/ticTacToe">Go To TicTacToe</Button>
             </Card.Body>
@@ -21,8 +21,8 @@ class Homepage extends Component {
         </div>
 
         {/* Connect4 Card */}
-        <div style= {{display: "inline-block", marginTop: "100px"}}>
-          <Card hoverable="true" style={{ width: '240px', height: '290px' }}>
+        <div style= {{display: "inline-block", marginLeft: "40px", marginTop: "100px"}}>
+          <Card style={{ width: '240px', height: '290px' }}>
             <Card.Img variant="top" style={{ width: '240px', height: '250px' }} src={connect4Img} />
             <Card.Body>
               <Button variant="primary" href="/connect4">Go To Connect4</Button>
