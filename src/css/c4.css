@@ -1,0 +1,29 @@
+.dot {
+  margin-top: 7px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+td:hover {
+  background-color: grey;
+}
+
+table, td {
+
+  border: 1px solid black;
+}
+
+.c4Square {
+  width: 80px;
+  height: 80px;
+}
+
+div {
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
