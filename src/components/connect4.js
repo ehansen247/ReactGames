@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TableRow from './c4Table.js';
+import C4Row from './c4Table.js';
 import '../css/c4.css';
 
 // Represents a game of Connect4
@@ -29,7 +29,7 @@ class Connect4 extends Component {
     const rows = this.state.board.map((row, i) =>
       {
         return (
-            <TableRow key={i}
+            <C4Row key={i}
               row={i}
               add={this.add}
               board={this.state.board}
@@ -51,12 +51,10 @@ class Connect4 extends Component {
             {rows}
           </tbody>
         </table>
-        <br />
-        <form>
+
+        <form style={{marginTop: "15px", marginBot: "10px"}}>
           <button type="submit">Reset Board</button>
         </form>
-        <br></br>
-        <br></br>
       </div>
     );
   }

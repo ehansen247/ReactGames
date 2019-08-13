@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/ttt.css';
-import TableRow from './tttTable';
+import TicTacToeRow from './tttTable';
 
 // Represents a game of TicTacToe
 class TicTacToe extends Component {
@@ -22,7 +22,7 @@ class TicTacToe extends Component {
       const rows = this.state.board.map((row, i) =>
       {
         return (
-          <TableRow
+          <TicTacToeRow
             key = {i}
             row = {i}
             board = {this.state.board}
@@ -45,15 +45,11 @@ class TicTacToe extends Component {
             </tbody>
           </table>
 
-          <br />
-          <button onClick={this.comp}>Computer Move</button>
-          <br/> <br />
+          <button style={{marginTop: "10px"}} onClick={this.comp}>Computer Move</button>
 
-          <form>
+          <form style={{marginTop: "10px", marginBot: "20px"}}>
               <button type="submit">Reset Board</button>
           </form>
-          <br />
-
         </div>
       );
     }

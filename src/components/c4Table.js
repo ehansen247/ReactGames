@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/c4.css';
 
 // Represents a row in a Connect4 Game
-class TableRow extends React.Component {
+class C4Row extends React.Component {
 
   clicked = (event) => {
     let key2 = parseInt(event.target.dataset.col);
@@ -40,4 +40,4 @@ class TableRow extends React.Component {
   }
 }
 
-export default TableRow;
+export default C4Row;

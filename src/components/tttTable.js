@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Represents a row in a TicTacToe game
-class TableRow extends React.Component {
+class TicTacToeRow extends React.Component {
 
   // Triggers the move function in ticTacToe.js
   click = (event) =>
@@ -24,4 +24,4 @@ class TableRow extends React.Component {
   }
 }
 
-export default TableRow;
+export default TicTacToeRow;
