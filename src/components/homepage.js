@@ -7,7 +7,6 @@ import { Card, Button } from 'react-bootstrap';
 class Homepage extends Component {
   render() {
     return (
-
       <div style= {{textAlign: "center", marginTop: "100px"}} >
 
         {/* TicTacToe Card */}
@@ -19,16 +18,15 @@ class Homepage extends Component {
         </Card>
 
         {/* Connect4 Card */}
-        <Card style={{ display: "inline-block", width: '240px', height: '300px' }}>
-          <Card.Img variant="top" style={{ width: '240px', height: '220px' }} src={connect4Img} />
+        <Card style={{ display: "inline-block", width: '260px', height: '300px' }}>
+          <Card.Img variant="top" style={{ width: '260px', height: '220px' }} src={connect4Img} />
           <Card.Body>
             <Button variant="primary" href="/connect4">Go To Connect4</Button>
           </Card.Body>
         </Card>
 
       </div>
-
-    )
+    );
   }
 }
 
