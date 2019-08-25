@@ -3,9 +3,12 @@ Recreated games of Connect4 and TicTacToe. Includes two-player gameplay for both
 
 ## Heroku App
 Access via link: [https://react-games-edh.herokuapp.com/](https://react-games-edh.herokuapp.com/)
+*You may have to wait or reload the page as Heroku "spins up" the application.
 
+## Run Locally
 
-### `npm start`
+Clone the project, then run  
+`npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
